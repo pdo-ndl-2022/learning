@@ -32,6 +32,11 @@
       "type": "text",
       "required": true,
       "maxLength": 150
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
     }
   }
 }
